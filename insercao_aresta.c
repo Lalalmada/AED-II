@@ -3,7 +3,7 @@ Insere(v1,v2) com peso 'peso', no grafo
 
 Nao verifica se a aresta ja existia (isso deve ser feito pelo o usuario antes, se necessario)
 */
-void insereAresta(int v1,int v2, Peso pes, Grafo*grafo){
+void insereAresta(int v1,int v2, Peso*peso, Grafo*grafo){
   if(!(verificaValidadeVertice(v1,grafo) && verificaValidadeVertice(v2,grafo)))
   return;
 

@@ -1,5 +1,4 @@
 #include <stdbool.h>
-#include "grafo_matrizadj.h"
 #define VERTICE_INVALIDO NULL//NRO DE VERTICE INVALIDO OU AUSENTE
 #define AN -1 // ARESTA NULA
 
